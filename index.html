@@ -736,12 +736,12 @@
         <div class="gallery-slideshow" id="gallery">
           <div class="slides" id="slidesTrack">
             <div class="slide active">
-              <img src="assets/img/Fig1.png" alt="Seismic stability of obliquely loaded circular anchors">
+              <img src="assets/img/Fig1.png" 
               <div class="slide-cap"><div class="slide-title">Seismic stability of obliquely loaded circular anchors
             </div>
             <div class="slide">
-              <img src="assets/img/research-bearing-2.png" alt="Failure surfaces for circular and strip footings">
-              <div class="slide-cap"><div class="slide-title">Failure surfaces, circular &amp; strip footings</div><div class="slide-sub">Effect of nonlinear strength parameters</div></div>
+              <img src="assets/img/Fig2.png" 
+              <div class="slide-cap"><div class="slide-title">Normalized undrained HM capacity envelopes of strip plate anchors 
             </div>
             <div class="slide">
               <img src="assets/img/research-anchor-1.png" alt="Slip mechanism for plate anchors">
@@ -1496,7 +1496,7 @@
     function prev() { goTo(current - 1); }
     function restart() {
       if (timer) clearInterval(timer);
-      timer = setInterval(next, 5000);
+      timer = setInterval(next, 2000);
     }
     nextBtn.addEventListener('click', next);
     prevBtn.addEventListener('click', prev);
